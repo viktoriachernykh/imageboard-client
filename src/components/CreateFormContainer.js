@@ -11,7 +11,7 @@ class CreateFormContainer extends React.Component {
 
   onSubmit = event => {
     event.preventDefault();
-    console.log("6", this.props);
+    // console.log("6", this.props);
     this.props.createImage(this.state, this.props.user);
     this.setState({
       title: "",
